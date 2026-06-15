@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ps">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>HIA AI</title>
+
+    <link rel="stylesheet"
+    href="style.css">
+
+    <!-- Markdown -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<div class="header">
+
+    <div class="logoBox">
+
+        <img
+        src="https://i.postimg.cc/T2m09dqJ/file-000000009fbc71f495a144d35c195089.png"
+        class="logo">
+
+    </div>
+
+    <div class="headText">
+
+        <div class="title">
+            HIA AI
+        </div>
+
+        <div class="sub">
+            Smart AI Assistant
+        </div>
+
+    </div>
+
+</div>
+
+<!-- CHAT -->
+
+<div id="chat">
+
+<div class="ai">
+
+<div class="msg">
+
+سلام 👋
+
+زه HIA AI یم.
+
+څنګه مرسته درسره وکړم؟
+
+</div>
+
+<div class="message-tools">
+
+<button
+class="copy-message"
+onclick="copyText(this)">
+📋 Copy
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- INPUT -->
+
+<div class="bottom">
+
+<input
+
+type="text"
+
+id="message"
+
+placeholder="خپل سوال ولیکئ..."
+
+autocomplete="off"
+
+>
+
+<button
+id="sendBtn"
+onclick="sendMessage()">
+
+➤
+
+</button>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
